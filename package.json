@@ -1,0 +1,20 @@
+{
+    "name": "js-subtype",
+    "version": "1.0.0",
+    "description": "A function to detect the type and subtype of a given JavaScript value.",
+    "main": "index.js",
+    "scripts": {
+      "test": "node test.js"
+    },
+    "keywords": [
+      "type",
+      "subtype",
+      "JavaScript",
+      "type-detection",
+      "utility"
+    ],
+    "author": "Nando Muñoz",
+    "license": "MIT",
+    "type": "module"
+  }
+  
