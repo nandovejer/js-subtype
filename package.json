@@ -1,20 +1,27 @@
 {
-    "name": "js-subtype",
-    "version": "1.0.0",
-    "description": "A function to detect the type and subtype of a given JavaScript value.",
-    "main": "index.js",
-    "scripts": {
-      "test": "node test.js"
-    },
-    "keywords": [
-      "type",
-      "subtype",
-      "JavaScript",
-      "type-detection",
-      "utility"
-    ],
-    "author": "Nando Muñoz",
-    "license": "MIT",
-    "type": "module"
-  }
-  
+  "name": "js-subtype",
+  "version": "1.0.0",
+  "description": "A function to detect the type and subtype of a given JavaScript value.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "type",
+    "subtype",
+    "JavaScript",
+    "type-detection",
+    "utility"
+  ],
+  "author": "Nando Muñoz",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandovejer/js-subtype.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nandovejer/js-subtype/issues"
+  },
+  "homepage": "https://github.com/nandovejer/js-subtype#readme"
+}
