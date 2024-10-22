@@ -17,6 +17,16 @@
     <main>
         <p>Open the browser console to see the results of the subtype analysis.</p>
     </main>
+    <footer>
+        <ul>
+            <li> <a title="repository of github" href="#repo">Repository</a> </li>
+            <li> <a title="Twitter of the Nando Muñoz" href="https://x.com/nandovejer">Twitter</a> </li>
+            <li> <a title="Main site of Nando Muñoz" href="http://soynando.com">Nando Muñoz</a> </li>
+        </ul>
+        <small>
+            Developed by <a title="Main github page of Nando Muñoz" href="https://github.com/nandovejer">Nando Muñoz</a>. Licensed under the MIT License.
+        </small>
+    </footer>
 </body>
 
 </html>
@@ -26,12 +36,9 @@
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         background-color: #333;
         color: #f5f5f5;
-
         margin: 0;
         padding: 0;
         display: grid;
-        align-items: center;
-        align-content: center;
         min-height: 100svh;
         text-align: center;
         max-width: 980px;
@@ -55,8 +62,10 @@
 
 
     header,
-    main {
-        padding: 0 1em;
+    main,
+    footer {
+        padding: 0 1.5em;
+        align-content: flex-end;
     }
 
     header {
@@ -64,7 +73,7 @@
 
         h1 {
             margin: 0 0 0.25em 0;
-            font-size: 2em;
+            font-size: clamp(2em, 2.25em, 4em);
             color: #000;
             background: linear-gradient(45deg, #ff0000, #ff7300, #ffeb00, #47ff00, #00ffee, #002bff, #7a00ff, #ff00c8);
             background-size: 300% 300%;
@@ -76,7 +85,7 @@
         p {
             margin: 0;
             font-weight: bold;
-            font-size: 1.25em;
+            font-size: clamp(1em, 1.25em, 2em);
         }
     }
 
@@ -84,5 +93,30 @@
     main {
         text-align: center;
         font-size: 1em;
+        color: #888;
+
     }
+
+    footer {
+        padding: 1.25em;
+
+        ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 1.5em;
+            justify-content: center;
+
+            li {
+                list-style-type: none;
+
+                a {
+                    color: #888;
+
+                    &:hover {
+                        color: #FFF;
+                    }
+                }
+            }
+        }
 </style>
