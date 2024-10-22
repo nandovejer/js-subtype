@@ -72,9 +72,6 @@ console.log(getType(new Map())); // Output: "Map"
 console.log(getType(new Set())); // Output: "Set"
 ```
 
-## Contribution
-
-We welcome contributions! Please submit a pull request or open an issue if you encounter any problems. Make sure to follow the guidelines outlined in the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
