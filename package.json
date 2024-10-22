@@ -1,6 +1,6 @@
 {
   "name": "js-subtype",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A function to detect the type and subtype of a given JavaScript value.",
   "main": "index.js",
   "scripts": {
