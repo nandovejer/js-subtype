@@ -63,6 +63,31 @@ function validateInput(input) {
 }
 ```
 
+
+| Type       | Subtype       | Description                                                                 |
+|------------|---------------|-----------------------------------------------------------------------------|
+| `undefined`| `undefined`   | Undefined value.                                                           |
+| `boolean`  | `boolean`     | Boolean value (`true` or `false`).                                         |
+| `number`   | `integer`     | Integer number.                                                            |
+| `number`   | `float`       | Floating-point number.                                                     |
+| `string`   | `string`      | Text string.                                                               |
+| `object`   | `null`        | Null value.                                                                |
+| `object`   | `array`       | Array (list of elements).                                                  |
+| `object`   | `date`        | `Date` object.                                                             |
+| `object`   | `regexp`      | Regular expression.                                                        |
+| `object`   | `map`         | `Map` object.                                                              |
+| `object`   | `set`         | `Set` object.                                                              |
+| `object`   | `weakmap`     | `WeakMap` object.                                                          |
+| `object`   | `weakset`     | `WeakSet` object.                                                          |
+| `object`   | `error`       | `Error` object.                                                            |
+| `object`   | `promise`     | `Promise` object.                                                          |
+| `object`   | `object`      | Generic object.                                                            |
+| `function` | `function`    | Function.                                                                  |
+| `symbol`   | `symbol`      | Symbol (`Symbol`).                                                         |
+| `bigint`   | `bigint`      | Large integer (`BigInt`).                                                  |
+
+
+
 ### Identifying Native JavaScript Objects
 
 Determine the exact native type of an object, such as `Map` or `Set`:
